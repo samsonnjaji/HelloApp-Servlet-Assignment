@@ -1,4 +1,11 @@
+                             /* BSD 2304:ADVANCED JAVA PROGRAMMING
+                              * Name Njaji Sibona Samson
+                              *  Reg no 23/05541
+                              */
+
 package com.helloapp.servlets;
+
+
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
@@ -15,7 +22,7 @@ import java.time.format.DateTimeFormatter;
  * This is for the "Build, Deploy, and Test a Basic Java Servlet" assignment
  * I'm trying to make it show a nice welcome page when people visit
  *
- * @author [Your Name]
+ * @author NJaji Sibona
  */
 public class HelloServlet extends HttpServlet {
 
@@ -62,7 +69,7 @@ public class HelloServlet extends HttpServlet {
         // Check if they gave us a name in the URL (like ?name=John)
         String userName = request.getParameter("name");
         if (userName == null || userName.trim().isEmpty()) {
-            userName = "Student";  // Default name if they didn't provide one
+            userName = "😊Uko Aje 🙌";  // Default name if they didn't provide one
         }
 
         // Figure out how long my servlet has been running
