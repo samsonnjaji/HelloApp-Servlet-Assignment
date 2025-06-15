@@ -1,6 +1,7 @@
                              /* BSD 2304:ADVANCED JAVA PROGRAMMING
                               * Name Njaji Sibona Samson
                               *  Reg no 23/05541
+                              * git hub: https://github.com/samsonnjaji/HelloApp-Servlet-Assignment
                               */
 
 package com.helloapp.servlets;
